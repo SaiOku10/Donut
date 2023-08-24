@@ -33,8 +33,8 @@ int main()
                     N = 8 * ((sinj * sinA - sini * cosj * cosA) * cosB - sini * cosj * sinA - sinj * cosA - cosi * cosj * sinB);
                 if (22 > y && y > 0 && x > 0 && 80 > x && mess > z[o]) {
                     z[o] = mess;
-		    // b[o] = ".,-~:;=!*#$@"[N > 0 ? N : 0];
-		    b[o] = ".........:::"[N > 0 ? N : 0];
+		    b[o] = ".,-~:;=!*#$@"[N > 0 ? N : 0];
+		    //b[o] = ".........:::"[N > 0 ? N : 0];
                 }
             }
         }
